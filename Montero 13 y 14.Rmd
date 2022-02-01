@@ -1,0 +1,21 @@
+---
+title: "13 y 14"
+author: "Adrian Montero Navarro"
+date: "31/1/2022"
+output: github_document
+---
+***13
+
+```{r setup, include=FALSE}
+gbif_peru$stateProvince[match(max(gbif_peru$stateProvince), gbif_peru$stateProvince)]
+
+gbif_peru$month[match(max(gbif_peru$month),gbif_peru$month)]
+
+gbif_peru$year[match(max(gbif_peru$year),gbif_peru$year)]
+```
+
+***14
+```{r}
+gbif_peru$locality
+gbif_peru$locality[match(max(gbif_peru$locality),gbif_peru$locality)]
+```
